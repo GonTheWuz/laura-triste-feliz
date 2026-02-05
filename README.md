@@ -23,7 +23,7 @@ En el Requirements.txt ponemos las versiones que necesitamos:
 
 
 Stage 1:
-Primero que nada tuvimos que eliminar "django browser reload" que se encontraban de la carpeta Principal(en mi caso personalblog)
+Tenemos que eliminar "django_browser_reload" que se encontraban de la carpeta Principal(en mi caso personalblog)
 en urls.py y teniendose que qeudar asi:
 
 <img width="720" height="212" alt="image" src="https://github.com/user-attachments/assets/253b864a-5078-4302-b017-68e83944e9b0" />
@@ -34,6 +34,23 @@ En settings.py (en dos sitios) teniendose que quedar asi:
 
 
 <img width="670" height="218" alt="image" src="https://github.com/user-attachments/assets/bb423c32-6626-4ce4-bdba-907ef51056b9" />
+
+Y en Requeriments.txt:
+Quedando como hemos visto al principio en el Stage 0.
+
+En el wsgi.py es posible que salga tambien, si ves algo eliminala haciendo que se quede asi:
+
+<img width="812" height="406" alt="image" src="https://github.com/user-attachments/assets/3d2bc0de-545b-455a-bde5-47ad2fe2ba6b" />
+
+
+Stage 2:
+Mas que nada cambiamos ciertas partes del codigo que de los archivos del Stage 0:
+En Compose.yaml:
+En la parte de Web era quitar las lineas que ponia:
+Ports:
+    -"8000:8000"
+
+
 
 
 
