@@ -32,6 +32,7 @@ En settings.py (en dos sitios) teniendose que quedar asi:
 
 <img width="406" height="328" alt="image" src="https://github.com/user-attachments/assets/8d312c7a-2e01-428a-87c5-174780afc72e" />
 
+
 <img width="670" height="218" alt="image" src="https://github.com/user-attachments/assets/bb423c32-6626-4ce4-bdba-907ef51056b9" />
 
 
