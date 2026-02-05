@@ -22,6 +22,8 @@ En el Requirements.txt ponemos las versiones que necesitamos:
 <img width="398" height="151" alt="image" src="https://github.com/user-attachments/assets/b14588cd-775a-44f2-8a82-cff9d9d6ca75" />
 
 
+
+
 Stage 1:
 Tenemos que eliminar "django_browser_reload" que se encontraban de la carpeta Principal(en mi caso personalblog)
 en urls.py y teniendose que qeudar asi:
@@ -42,6 +44,9 @@ Quedando como hemos visto al principio en el Stage 0.
 En el wsgi.py es posible que salga tambien, si ves algo eliminala haciendo que se quede asi:
 
 <img width="812" height="406" alt="image" src="https://github.com/user-attachments/assets/3d2bc0de-545b-455a-bde5-47ad2fe2ba6b" />
+
+
+
 
 
 Stage 2:
