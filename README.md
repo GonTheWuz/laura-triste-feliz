@@ -66,9 +66,11 @@ En la parte de "CMD" cambiar el comando que hay por este:
 
 ["gunicorn", "personalblog.wsgi:application", "--bind", "0.0.0.0:8000"] 
 
+
 En el settings.py al final de todo tendremos uqe añadir esta linea para que guarde todos los archivos aqui:
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
+
 
 Y por ultimo en el Requeriments.txt:
 
