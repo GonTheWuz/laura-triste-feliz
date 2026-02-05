@@ -1,4 +1,4 @@
-lo que hemos añadido han sido los archivos del compose.yaml el dockerfile y requirements.txt asi de primeras.
+lo que hemos añadido primero han sido los archivos del compose.yaml el dockerfile y requirements.txt.
 
 Stage 0:
 
